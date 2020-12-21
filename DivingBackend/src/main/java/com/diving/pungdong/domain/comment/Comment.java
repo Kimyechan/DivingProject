@@ -1,12 +1,12 @@
-package com.diving.domain.swimmingPool;
+package com.diving.pungdong.domain.comment;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class SwimmingPool {
+public class Comment {
 
     @Id @GeneratedValue
-    Long id;
+    private Long id;
 }

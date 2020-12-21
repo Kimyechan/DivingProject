@@ -1,4 +1,4 @@
-package com.diving.domain.payment;
+package com.diving.pungdong.domain.payment;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

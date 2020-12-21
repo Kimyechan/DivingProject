@@ -1,4 +1,4 @@
-package com.diving.domain.account;
+package com.diving.pungdong.domain.account;
 
 import javax.persistence.*;
 

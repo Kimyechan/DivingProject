@@ -1,4 +1,4 @@
-package com.diving.domain.lecture;
+package com.diving.pungdong.domain.lecture;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
