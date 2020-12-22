@@ -18,8 +18,8 @@ public class SwaggerConfiguration {
         return new Docket(DocumentationType.SWAGGER_2).apiInfo(swaggerInfo()).select()
                 .apis(RequestHandlerSelectors.basePackage("com.diving.pungdong.controller"))
                 .paths(PathSelectors.any())
-                .build();
-//                .useDefaultResponseMessages(false);
+                .build()
+                .useDefaultResponseMessages(false);
     }
 
     private ApiInfo swaggerInfo() {
